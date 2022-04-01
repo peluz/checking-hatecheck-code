@@ -1,0 +1,24 @@
+name: checking-hateCheck
+
+channels:
+- huggingface
+- pytorch
+- fastchan
+- conda-forge
+- defaults
+
+dependencies:
+- python=3.9.5
+- jupyter
+- ipykernel
+- pandas
+- transformers
+- pytorch 
+- torchvision 
+- torchaudio 
+- cudatoolkit=11.3
+- fastai
+- scikit-learn
+- pip
+- pip:
+  - ray[tune]
